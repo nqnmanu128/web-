@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tu Empresa</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Tu Empresa</h1>
+            <nav>
+                <ul>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#responsabilidad-social">Responsabilidad Social</a></li>
+                    <li><a href="#campana">Campaña</a></li>
+                    <li><a href="#zona-clientes">Zona Clientes</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="nosotros" class="section">
+        <div class="container">
+            <h2>Nosotros</h2>
+            <p>Aquí puedes agregar información sobre tu empresa.</p>
+        </div>
+    </section>
+
+    <section id="productos" class="section">
+        <div class="container">
+            <h2>Productos</h2>
+            <p>Presenta tus productos o servicios aquí.</p>
+        </div>
+    </section>
+
+    <section id="responsabilidad-social" class="section">
+        <div class="container">
+            <h2>Responsabilidad Social</h2>
+            <p>Información sobre las actividades de responsabilidad social de tu empresa.</p>
+        </div>
+    </section>
+
+    <section id="campana" class="section">
+        <div class="container">
+            <h2>Campaña</h2>
+            <p>Detalles sobre la última campaña de tu empresa.</p>
+        </div>
+    </section>
+
+    <section id="zona-clientes" class="section">
+        <div class="container">
+            <h2>Zona Clientes</h2>
+            <p>Acceso a la zona de clientes o cualquier información relevante para ellos.</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Haz clic en el botón para mostrar el formulario de contacto.</p>
+            <button id="mostrarFormulario">Mostrar Formulario</button>
+            <div id="formularioContainer" style="display: none;">
+                <form id="formularioContacto">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
